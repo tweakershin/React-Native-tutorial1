@@ -31,7 +31,6 @@ export function BlinkF(props) {
   }
 
   React.useEffect(() => {
-    console.log("A");
     const interval = setInterval(() => {
       setShowText((showText) => !showText);
     }, 2000);
